@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account | Aurora Luxe</title>
+    <meta name="description" content="Manage your Aurora Luxe account - orders, wishlist, addresses">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <span>✨</span> Free Shipping on Orders Above ₹10,000 | Hallmarked Gold | 100% Certified Diamonds <span>✨</span>
+            </div>
+        </div>
+        
+        <div class="header-main">
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="logo">AURORA<span>LUXE</span></a>
+                    
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search for rings, necklaces, earrings...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    
+                    <div class="header-actions">
+                        <a href="account.html">
+                            <i class="fas fa-user icon"></i>
+                            <span>Account</span>
+                        </a>
+                        <a href="wishlist.html">
+                            <i class="fas fa-heart icon"></i>
+                            <span>Wishlist</span>
+                        </a>
+                        <a href="cart.html">
+                            <i class="fas fa-shopping-bag icon"></i>
+                            <span>Cart</span>
+                            <span class="cart-count">3</span>
+                        </a>
+                    </div>
+                    
+                    <div class="mobile-menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="nav">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Rings</a></li>
+                    <li><a href="products.html">Necklaces</a></li>
+                    <li><a href="products.html">Earrings</a></li>
+                    <li><a href="products.html">Bracelets</a></li>
+                    <li><a href="products.html">Bangles</a></li>
+                    <li><a href="products.html">Pendants</a></li>
+                    <li><a href="#">Wedding</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Gifts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>My Account</span>
+            </div>
+            <h1>My Account</h1>
+        </div>
+    </section>
+
+    <!-- Account Page -->
+    <section class="account-page">
+        <div class="container">
+            <div class="account-layout">
+                <!-- Account Sidebar -->
+                <aside class="account-sidebar">
+                    <div class="account-user">
+                        <div class="avatar">PS</div>
+                        <h4>Priya Sharma</h4>
+                        <p>priya.sharma@email.com</p>
+                    </div>
+                    
+                    <ul class="account-menu">
+                        <li><a href="#" class="active"><i class="fas fa-home" style="margin-right: 10px;"></i> Dashboard</a></li>
+                        <li><a href="#"><i class="fas fa-box" style="margin-right: 10px;"></i> My Orders</a></li>
+                        <li><a href="#"><i class="fas fa-heart" style="margin-right: 10px;"></i> Wishlist (5)</a></li>
+                        <li><a href="#"><i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i> Addresses</a></li>
+                        <li><a href="#"><i class="fas fa-ruler" style="margin-right: 10px;"></i> Ring Sizes</a></li>
+                        <li><a href="#"><i class="fas fa-file-invoice" style="margin-right: 10px;"></i> Invoices</a></li>
+                        <li><a href="#"><i class="fas fa-cog" style="margin-right: 10px;"></i> Settings</a></li>
+                        <li><a href="#"><i class="fas fa-sign-out-alt" style="margin-right: 10px;"></i> Logout</a></li>
+                    </ul>
+                </aside>
+                
+                <!-- Account Content -->
+                <div class="account-content">
+                    <h2>Welcome back, Priya!</h2>
+                    
+                    <!-- Dashboard Cards -->
+                    <div class="dashboard-cards">
+                        <div class="dashboard-card">
+                            <div class="icon">📦</div>
+                            <h4>5</h4>
+                            <p>Total Orders</p>
+                        </div>
+                        <div class="dashboard-card">
+                            <div class="icon">❤️</div>
+                            <h4>5</h4>
+                            <p>Wishlist Items</p>
+                        </div>
+                        <div class="dashboard-card">
+                            <div class="icon">📍</div>
+                            <h4>2</h4>
+                            <p>Saved Addresses</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Recent Orders -->
+                    <div class="orders-section">
+                        <h3>Recent Orders</h3>
+                        <table class="orders-table">
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Date</th>
+                                    <th>Items</th>
+                                    <th>Total</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#AL-2024-001</td>
+                                    <td>15 Jan 2024</td>
+                                    <td>2 Items</td>
+                                    <td>₹78,890</td>
+                                    <td><span class="status-badge status-delivered">Delivered</span></td>
+                                    <td><a href="#" style="color: var(--primary-gold);">View</a></td>
+                                </tr>
+                                <tr>
+                                    <td>#AL-2024-002</td>
+                                    <td>28 Dec 2023</td>
+                                    <td>1 Item</td>
+                                    <td>₹32,500</td>
+                                    <td><span class="status-badge status-delivered">Delivered</span></td>
+                                    <td><a href="#" style="color: var(--primary-gold);">View</a></td>
+                                </tr>
+                                <tr>
+                                    <td>#AL-2024-003</td>
+                                    <td>10 Nov 2023</td>
+                                    <td>3 Items</td>
+                                    <td>₹1,25,000</td>
+                                    <td><span class="status-badge status-delivered">Delivered</span></td>
+                                    <td><a href="#" style="color: var(--primary-gold);">View</a></td>
+                                </tr>
+                                <tr>
+                                    <td>#AL-2024-004</td>
+                                    <td>05 Oct 2023</td>
+                                    <td>1 Item</td>
+                                    <td>₹45,990</td>
+                                    <td><span class="status-badge status-delivered">Delivered</span></td>
+                                    <td><a href="#" style="color: var(--primary-gold);">View</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <a href="#" class="btn btn-dark" style="margin-top: 20px;">View All Orders</a>
+                    </div>
+                    
+                    <!-- Quick Actions -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin-top: 40px;">
+                        <div style="background: var(--off-white); padding: 25px; border-radius: 15px;">
+                            <h3 style="font-size: 18px; margin-bottom: 20px;">Saved Addresses</h3>
+                            
+                            <div style="background: var(--white); padding: 15px; border-radius: 10px; margin-bottom: 15px;">
+                                <p style="font-weight: 600; margin-bottom: 5px;">Home</p>
+                                <p style="font-size: 14px; color: var(--text-gray);">Priya Sharma<br>123, ABC Apartments<br>Mumbai, Maharashtra 400001<br>+91 98765 43210</p>
+                            </div>
+                            
+                            <div style="background: var(--white); padding: 15px; border-radius: 10px;">
+                                <p style="font-weight: 600; margin-bottom: 5px;">Office</p>
+                                <p style="font-size: 14px; color: var(--text-gray);">Priya Sharma<br>456, Tech Park<br>Bangalore, Karnataka 560001<br>+91 98765 43210</p>
+                            </div>
+                            
+                            <a href="#" class="btn btn-primary" style="margin-top: 15px; width: 100%; justify-content: center;">Manage Addresses</a>
+                        </div>
+                        
+                        <div style="background: var(--off-white); padding: 25px; border-radius: 15px;">
+                            <h3 style="font-size: 18px; margin-bottom: 20px;">Your Ring Sizes</h3>
+                            
+                            <div style="background: var(--white); padding: 15px; border-radius: 10px; margin-bottom: 15px;">
+                                <p style="font-weight: 600; margin-bottom: 5px;">Your Size</p>
+                                <p style="font-size: 14px; color: var(--text-gray);">Ring Size: 7</p>
+                            </div>
+                            
+                            <div style="background: var(--white); padding: 15px; border-radius: 10px; margin-bottom: 15px;">
+                                <p style="font-weight: 600; margin-bottom: 5px;">Partner's Size</p>
+                                <p style="font-size: 14px; color: var(--text-gray);">Ring Size: 6</p>
+                            </div>
+                            
+                            <a href="#" class="btn btn-primary" style="width: 100%; justify-content: center;">Update Sizes</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Wishlist Preview -->
+                    <div style="margin-top: 40px;">
+                        <h3 style="font-size: 20px; margin-bottom: 20px;">Your Wishlist</h3>
+                        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
+                            <div style="background: var(--off-white); border-radius: 10px; overflow: hidden;">
+                                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=200&q=80" alt="Ring" style="width: 100%; height: 200px; object-fit: cover;">
+                                <div style="padding: 15px;">
+                                    <p style="font-size: 14px; font-weight: 600;">Diamond Halo Ring</p>
+                                    <p style="color: var(--primary-gold); font-weight: 600;">₹58,900</p>
+                                </div>
+                            </div>
+                            <div style="background: var(--off-white); border-radius: 10px; overflow: hidden;">
+                                <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=200&q=80" alt="Necklace" style="width: 100%; height: 200px; object-fit: cover;">
+                                <div style="padding: 15px;">
+                                    <p style="font-size: 14px; font-weight: 600;">Gold Pendant</p>
+                                    <p style="color: var(--primary-gold); font-weight: 600;">₹32,500</p>
+                                </div>
+                            </div>
+                            <div style="background: var(--off-white); border-radius: 10px; overflow: hidden;">
+                                <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=200&q=80" alt="Earrings" style="width: 100%; height: 200px; object-fit: cover;">
+                                <div style="padding: 15px;">
+                                    <p style="font-size: 14px; font-weight: 600;">Pearl Earrings</p>
+                                    <p style="color: var(--primary-gold); font-weight: 600;">₹15,900</p>
+                                </div>
+                            </div>
+                            <div style="background: var(--off-white); border-radius: 10px; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+                                <a href="#" style="color: var(--primary-gold);">+ Add More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">AURORA<span>LUXE</span></a>
+                    <p>Discover exquisite fine jewelry crafted with passion and precision.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">Rings</a></li>
+                        <li><a href="#">Necklaces</a></li>
+                        <li><a href="#">Earrings</a></li>
+                        <li><a href="#">Bracelets</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aurora Luxe. All rights reserved.</p>
+                <div class="payment-badges">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

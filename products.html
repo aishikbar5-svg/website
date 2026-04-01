@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop All Jewelry | Aurora Luxe</title>
+    <meta name="description" content="Browse our complete collection of fine jewelry - rings, necklaces, earrings, bracelets, bangles, and pendants in gold, diamond, and gemstone.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <span>✨</span> Free Shipping on Orders Above ₹10,000 | Hallmarked Gold | 100% Certified Diamonds <span>✨</span>
+            </div>
+        </div>
+        
+        <div class="header-main">
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="logo">AURORA<span>LUXE</span></a>
+                    
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search for rings, necklaces, earrings...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    
+                    <div class="header-actions">
+                        <a href="account.html">
+                            <i class="fas fa-user icon"></i>
+                            <span>Account</span>
+                        </a>
+                        <a href="wishlist.html">
+                            <i class="fas fa-heart icon"></i>
+                            <span>Wishlist</span>
+                        </a>
+                        <a href="cart.html">
+                            <i class="fas fa-shopping-bag icon"></i>
+                            <span>Cart</span>
+                            <span class="cart-count">3</span>
+                        </a>
+                    </div>
+                    
+                    <div class="mobile-menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="nav">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Rings</a></li>
+                    <li><a href="products.html">Necklaces</a></li>
+                    <li><a href="products.html">Earrings</a></li>
+                    <li><a href="products.html">Bracelets</a></li>
+                    <li><a href="products.html">Bangles</a></li>
+                    <li><a href="products.html">Pendants</a></li>
+                    <li><a href="#">Wedding</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Gifts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="#">Rings</a>
+                <span>/</span>
+                <span>All Rings</span>
+            </div>
+            <h1>Engagement & Wedding Rings</h1>
+            <p>Explore our exquisite collection of rings crafted with love</p>
+        </div>
+    </section>
+
+    <!-- Products Page -->
+    <section class="products-page">
+        <div class="container">
+            <div class="products-layout">
+                <!-- Filters Sidebar -->
+                <aside class="filters-sidebar">
+                    <div class="filter-section">
+                        <h4>Category <i class="fas fa-chevron-down"></i></h4>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Engagement Rings (245)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Wedding Bands (156)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Fashion Rings (389)</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Solitaire Rings (98)</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-section">
+                        <h4>Price Range <i class="fas fa-chevron-down"></i></h4>
+                        <div class="price-range">
+                            <input type="number" placeholder="Min">
+                            <span>to</span>
+                            <input type="number" placeholder="Max">
+                        </div>
+                        <button class="btn btn-primary" style="margin-top: 15px; width: 100%; padding: 10px;">Apply</button>
+                    </div>
+                    
+                    <div class="filter-section">
+                        <h4>Metal Type <i class="fas fa-chevron-down"></i></h4>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Yellow Gold</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>White Gold</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Rose Gold</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Platinum</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-section">
+                        <h4>Karat <i class="fas fa-chevron-down"></i></h4>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>24K</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>22K</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>18K</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>14K</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-section">
+                        <h4>Stone Type <i class="fas fa-chevron-down"></i></h4>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Diamond</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Moissanite</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Emerald</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Ruby</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Sapphire</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Pearl</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-section">
+                        <h4>Gender <i class="fas fa-chevron-down"></i></h4>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Women</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Men</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Unisex</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-section">
+                        <h4>Occasion <i class="fas fa-chevron-down"></i></h4>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Engagement</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Wedding</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Anniversary</span>
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox">
+                                <span>Daily Wear</span>
+                            </label>
+                        </div>
+                    </div>
+                </aside>
+                
+                <!-- Products Grid -->
+                <div class="products-main">
+                    <div class="products-header">
+                        <p class="results-count">Showing 1-12 of 245 products</p>
+                        <div class="sort-options">
+                            <label>Sort by:</label>
+                            <select>
+                                <option>Popularity</option>
+                                <option>Price: Low to High</option>
+                                <option>Price: High to Low</option>
+                                <option>Newest First</option>
+                                <option>Customer Rating</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600&q=80" alt="Diamond Ring">
+                                <div class="product-badges">
+                                    <span class="badge badge-bestseller">Bestseller</span>
+                                </div>
+                                <div class="product-actions">
+                                    <button title="Quick View"><i class="far fa-eye"></i></button>
+                                    <button title="Add to Wishlist"><i class="far fa-heart"></i></button>
+                                    <button title="Compare"><i class="fas fa-balance-scale"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-category">Engagement Rings</p>
+                                <h3 class="product-title"><a href="product-detail.html">Solitaire Diamond Ring</a></h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹45,990</span>
+                                    <span class="original-price">₹52,000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(128)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=600&q=80" alt="Diamond Ring">
+                                <div class="product-badges">
+                                    <span class="badge badge-new">New</span>
+                                </div>
+                                <div class="product-actions">
+                                    <button title="Quick View"><i class="far fa-eye"></i></button>
+                                    <button title="Add to Wishlist"><i class="far fa-heart"></i></button>
+                                    <button title="Compare"><i class="fas fa-balance-scale"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-category">Wedding Bands</p>
+                                <h3 class="product-title"><a href="product-detail.html">Eternity Diamond Band</a></h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹52,000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(89)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&q=80" alt="Gemstone Ring">
+                                <div class="product-actions">
+                                    <button title="Quick View"><i class="far fa-eye"></i></button>
+                                    <button title="Add to Wishlist"><i class="far fa-heart"></i></button>
+                                    <button title="Compare"><i class="fas fa-balance-scale"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-category">Fashion Rings</p>
+                                <h3 class="product-title"><a href="product-detail.html">Emerald Gemstone Ring</a></h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹32,500</span>
+                                </div>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★☆</span>
+                                    <span class="rating-count">(56)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&q=80" alt="Gold Ring">
+                                <div class="product-badges">
+                                    <span class="badge badge-sale">Sale</span>
+                                </div>
+                                <div class="product-actions">
+                                    <button title="Quick View"><i class="far fa-eye"></i></button>
+                                    <button title="Add to Wishlist"><i class="far fa-heart"></i></button>
+                                    <button title="Compare"><i class="fas fa-balance-scale"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-category">Engagement Rings</p>
+                                <h3 class="product-title"><a href="product-detail.html">Classic Gold Band</a></h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹28,900</span>
+                                    <span class="original-price">₹35,000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(203)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=80" alt="Diamond Ring">
+                                <div class="product-actions">
+                                    <button title="Quick View"><i class="far fa-eye"></i></button>
+                                    <button title="Add to Wishlist"><i class="far fa-heart"></i></button>
+                                    <button title="Compare"><i class="fas fa-balance-scale"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-category">Solitaire Rings</p>
+                                <h3 class="product-title"><a href="product-detail.html">Princess Cut Diamond</a></h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹68,500</span>
+                                </div>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(145)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&q=80" alt="Rose Gold Ring">
+                                <div class="product-badges">
+                                    <span class="badge badge-new">New</span>
+                                </div>
+                                <div class="product-actions">
+                                    <button title="Quick View"><i class="far fa-eye"></i></button>
+                                    <button title="Add to Wishlist"><i class="far fa-heart"></i></button>
+                                    <button title="Compare"><i class="fas fa-balance-scale"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-category">Fashion Rings</p>
+                                <h3 class="product-title"><a href="product-detail.html">Rose Gold Twist Ring</a></h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹22,500</span>
+                                </div>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★☆</span>
+                                    <span class="rating-count">(78)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=600&q=80" alt="Platinum Ring">
+                                <div class="product-actions">
+                                    <button title="Quick View"><i class="far fa-eye"></i></button>
+                                    <button title="Add to Wishlist"><i class="far fa-heart"></i></button>
+                                    <button title="Compare"><i class="fas fa-balance-scale"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-category">Wedding Bands</p>
+                                <h3 class="product-title"><a href="product-detail.html">Platinum Mens Band</a></h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹42,000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(67)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=600&q=80" alt="Diamond Ring">
+                                <div class="product-badges">
+                                    <span class="badge badge-bestseller">Bestseller</span>
+                                </div>
+                                <div class="product-actions">
+                                    <button title="Quick View"><i class="far fa-eye"></i></button>
+                                    <button title="Add to Wishlist"><i class="far fa-heart"></i></button>
+                                    <button title="Compare"><i class="fas fa-balance-scale"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-category">Engagement Rings</p>
+                                <h3 class="product-title"><a href="product-detail.html">Halo Diamond Ring</a></h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹58,900</span>
+                                </div>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(234)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=600&q=80" alt="Ruby Ring">
+                                <div class="product-actions">
+                                    <button title="Quick View"><i class="far fa-eye"></i></button>
+                                    <button title="Add to Wishlist"><i class="far fa-heart"></i></button>
+                                    <button title="Compare"><i class="fas fa-balance-scale"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-category">Gemstone Rings</p>
+                                <h3 class="product-title"><a href="product-detail.html">Ruby Red Ring</a></h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹35,500</span>
+                                </div>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★☆</span>
+                                    <span class="rating-count">(45)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600&q=80" alt="Diamond Ring">
+                                <div class="product-badges">
+                                    <span class="badge badge-new">New</span>
+                                </div>
+                                <div class="product-actions">
+                                    <button title="Quick View"><i class="far fa-eye"></i></button>
+                                    <button title="Add to Wishlist"><i class="far fa-heart"></i></button>
+                                    <button title="Compare"><i class="fas fa-balance-scale"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-category">Solitaire Rings</p>
+                                <h3 class="product-title"><a href="product-detail.html">Cushion Cut Diamond</a></h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹75,000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(89)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&q=80" alt="Gold Ring">
+                                <div class="product-actions">
+                                    <button title="Quick View"><i class="far fa-eye"></i></button>
+                                    <button title="Add to Wishlist"><i class="far fa-heart"></i></button>
+                                    <button title="Compare"><i class="fas fa-balance-scale"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-category">Fashion Rings</p>
+                                <h3 class="product-title"><a href="product-detail.html">Gold Filigree Ring</a></h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹18,500</span>
+                                </div>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★☆</span>
+                                    <span class="rating-count">(112)</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&q=80" alt="Diamond Ring">
+                                <div class="product-badges">
+                                    <span class="badge badge-sale">Sale</span>
+                                </div>
+                                <div class="product-actions">
+                                    <button title="Quick View"><i class="far fa-eye"></i></button>
+                                    <button title="Add to Wishlist"><i class="far fa-heart"></i></button>
+                                    <button title="Compare"><i class="fas fa-balance-scale"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <p class="product-category">Engagement Rings</p>
+                                <h3 class="product-title"><a href="product-detail.html">Three Stone Diamond</a></h3>
+                                <div class="product-price">
+                                    <span class="current-price">₹85,000</span>
+                                    <span class="original-price">₹95,000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <span class="stars">★★★★★</span>
+                                    <span class="rating-count">(156)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Pagination -->
+                    <div style="display: flex; justify-content: center; gap: 10px; margin-top: 50px;">
+                        <a href="#" class="btn btn-dark" style="padding: 12px 20px;">&laquo; Prev</a>
+                        <a href="#" class="btn btn-primary" style="padding: 12px 20px;">1</a>
+                        <a href="#" class="btn btn-dark" style="padding: 12px 20px;">2</a>
+                        <a href="#" class="btn btn-dark" style="padding: 12px 20px;">3</a>
+                        <a href="#" class="btn btn-dark" style="padding: 12px 20px;">...</a>
+                        <a href="#" class="btn btn-dark" style="padding: 12px 20px;">20</a>
+                        <a href="#" class="btn btn-dark" style="padding: 12px 20px;">Next &raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to receive updates on new collections, exclusive offers, and styling tips</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">AURORA<span>LUXE</span></a>
+                    <p>Discover exquisite fine jewelry crafted with passion and precision.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">Rings</a></li>
+                        <li><a href="#">Necklaces</a></li>
+                        <li><a href="#">Earrings</a></li>
+                        <li><a href="#">Bracelets</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aurora Luxe. All rights reserved.</p>
+                <div class="payment-badges">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
